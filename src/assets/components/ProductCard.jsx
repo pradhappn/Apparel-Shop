@@ -4,7 +4,7 @@ export default function ProductCard({ product }) {
   return (
     <div className="border border-gray-200 rounded-2xl p-4 shadow hover:shadow-lg transition-all bg-white flex flex-col">
       <img
-        src={new URL(product.image, import.meta.env.BASE_URL).href}
+        src={product.image}
         alt={product.name}
         className="w-full h-100 object-cover rounded-xl mb-4"
       />

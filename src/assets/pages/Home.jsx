@@ -5,7 +5,7 @@ export default function Home() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch(new URL('data/products.json', import.meta.env.BASE_URL).href)
+    fetch('/data/products.json')
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

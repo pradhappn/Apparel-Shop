@@ -11,7 +11,7 @@ import { CartProvider } from "./assets/context/CartContext";
 function App() {
   return (
     <CartProvider>
-      <Router basename="/Apparel-Ecommerce-master">
+      <Router>
         <Header />
         <div className="min-h-screen px-4 py-6">
           <Routes>
