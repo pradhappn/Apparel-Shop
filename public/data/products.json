@@ -22,6 +22,8 @@
   },
   {
     "id": 4,
+    "name": "White Warriors",
+    "price": 2499,
     "image": "9516481.jpg",
     "description": "A sleek all-white performance shirt with a modern cut, made for those who stand out in simplicity."
   },
@@ -29,7 +31,7 @@
     "id": 5,
     "name": "Smart Watch",
     "price": 2499,
-    "image": "/9516481.jpg",
+    "image": "9516481.jpg",
     "description": "A lightweight smart wearable that tracks fitness, displays notifications, and adds tech to your style."
   }
 ]
